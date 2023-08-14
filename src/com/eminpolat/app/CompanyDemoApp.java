@@ -15,7 +15,7 @@ public class CompanyDemoApp {
             Employee employee = factory.getRandomEmployee();
 
             humanResources.payInsurance(employee);
-            ThreadUtil.sleep(3000);
+            ThreadUtil.sleep(4000);
         }
     }
 
